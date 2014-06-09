@@ -1,0 +1,45 @@
+<Alloy>
+  <Window id="win">
+    <ScrollView id="outerView">
+      <!-- Fugitive Status -->
+      <Label id="labelStatusHeadline" class="labelHeadline">Fugitive State</Label>
+      <Label id="labelStatus" class="labelInfo"></Label>
+
+      <!-- Fugitive Image -->
+      <Label id="labelImageHeadline" class="labelHeadline">Image</Label>
+      <ImageView id="fugitiveImage" />
+
+      <!-- Actions -->
+      <Label id="labelActionsHeadline" class="labelHeadline">Available Actions</Label>
+      <Button id="buttonImage" class="buttonAction" onClick="showImageOptions">Update Photo</Button>
+      <Button id="buttonCapture" class="buttonAction" onClick="eventClickCapture">Capture</Button>
+      <Button id="buttonViewMap" class="buttonAction" onClick="showMapView">Show on Map</Button>
+      <Button id="buttonDelete" class="buttonAction" onClick="showDeleteAlert">Delete</Button>
+      <View id="fillerView" />
+    </ScrollView>
+
+    <!-- This dialog will get triggered when user wants to delete -->
+    <AlertDialog id="dialogDelete" onClick="confirmDelete">
+      <ButtonNames>
+        <ButtonName>Confirm</ButtonName>
+        <ButtonName>Cancel</ButtonName>
+      </ButtonNames>
+    </AlertDialog>
+
+    <!-- This dialog will get triggered when user has captured a fugitive -->
+    <AlertDialog id="dialogCapture" onClick="closeWindow" title="Success!">
+      <ButtonNames>
+        <ButtonName>Ok</ButtonName>
+      </ButtonNames>
+    </AlertDialog>
+
+    <!-- This OptionDialog allows the user to select the source for selection a photo. -->
+    <OptionDialog id="optionDialogImage" title="Select Photo Source" onClick="selectPhoto">
+      <Options>
+          <Option>Photo Gallery</Option>
+          <Option>Take a photo</Option>
+          <Option>Cancel</Option>
+      </Options>
+    </OptionDialog>
+  </Window>
+</Alloy>

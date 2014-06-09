@@ -1,0 +1,11 @@
+Getting started with Titanium Mobile & Alloy.
+
+I'm getting ready to jump into the Alloy pool for mobile development with Appcelerator's Titanium framework and wanted to share my version of the Alloy Fugitive app. This version should be compatible with the (at writing) most recent version of the Titanium API 3.2.2.GA as well as Alloy 1.3.1.
+
+The tutorial I followed to write the app is a combination of the various Titanium tutorials,
+namely these:
+- Titanium Certified Developer (TCD) Training Labs: https://wiki.appcelerator.org/display/td/TCD+Training+Labs
+- TCE Training Labs: https://wiki.appcelerator.org/display/td/TCE+Training+Labs
+- TCAD Course Labs: https://wiki.appcelerator.org/display/td/TCAD+Course+Labs
+
+Happy coding!

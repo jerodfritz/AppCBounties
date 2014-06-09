@@ -1,0 +1,54 @@
+"#win" : {
+  backgroundColor: 'white'
+},
+"#outerView":  {
+  top: 10,
+  layout: 'vertical',
+  height: Ti.UI.FILL,
+},
+".labelHeadline": {
+  color: '#000000',
+  top: 15,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  font: {
+    fontSize: 18,
+  }
+},
+".labelInfo": {
+  color: '#484848',
+  top: 2,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  font: {
+    fontSize: 14,
+  }
+},
+'.buttonAction': {
+  top: 3,
+},
+'#buttonCapture': {
+  // By default, button is disabled. If fugitive is still at large,
+  // button gets enabled in controller.
+  enabled: false
+},
+'#buttonViewMap' : {
+  // Button should only be enabled if coordinates are available.
+  enabled: false
+},
+'#fillerView': {
+  height: 15,
+  width: Ti.UI.FILL,
+},
+'#dialogDelete': {
+  title: 'Delete Fugitive',
+  message: 'Are you sure you want to delete this fugitive?',
+  cancel: 1
+},
+'#fugitiveImage': {
+  width: 100,
+  height: 100,
+  backgroundImage: '/images/burglar.png',
+  autorotate: true
+},
+'#optionDialogImage[platform=ios]': {
+  cancel: 2
+}

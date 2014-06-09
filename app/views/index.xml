@@ -1,0 +1,10 @@
+<Alloy>
+  <TabGroup id="tabGroup">
+    <Tab title="Fugitives" id="tabFugitives">
+      <Require type="view" src="people/fugitives" id="windowFugitives" />
+    </Tab>
+    <Tab title="Captured" id="tabCaptured">
+      <Require type="view" src="people/captured" id="windowCaptured" />
+    </Tab>
+  </TabGroup>
+</Alloy>

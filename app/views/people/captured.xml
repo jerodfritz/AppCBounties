@@ -1,0 +1,8 @@
+<Alloy>
+  <Collection src="fugitives" />
+  <Window title="Captured" id="win">
+    <TableView class="table" id="tableCaptured" dataCollection="fugitives" dataFilter="fugitivesCaptured">
+      <Require type="view" src="fugitivesRow" id="tableViewRowFugitives" />
+    </TableView>
+  </Window>
+</Alloy>

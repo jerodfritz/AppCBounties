@@ -1,0 +1,6 @@
+<Alloy>
+  <Window id="win">
+    <!-- Use the Alloy.Globals.Map namespace to create a map module view -->
+    <View id="mapView" ns="Alloy.Globals.Map" />
+  </Window>
+</Alloy>

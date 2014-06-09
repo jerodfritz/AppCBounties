@@ -1,0 +1,4 @@
+// Global styles.
+'Button': {
+  color: '#000000'
+}

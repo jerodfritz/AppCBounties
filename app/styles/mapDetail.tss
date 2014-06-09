@@ -1,0 +1,9 @@
+"#win": {
+  title: 'Captured Location',
+},
+'#mapView': {
+  mapType: Alloy.Globals.Map.NORMAL_TYPE,
+  animate: true,
+  regionFit: true,
+  userLocation: false,
+}

@@ -1,0 +1,8 @@
+'#tableViewRow': {
+  height: 36,
+  backgroundColor: '#eeeeee'
+},
+'#rowLabel': {
+  left: 10,
+  color: '#000000'
+},

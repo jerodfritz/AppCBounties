@@ -1,0 +1,11 @@
+<Alloy>
+  <Window id="win" title="Add Fugitive">
+    <LeftNavButton>
+      <Button title="Cancel" onClick="closeWindow" />
+    </LeftNavButton>
+    <Label id="headline">Create a new fugitive</Label>
+    <Label class="fieldDescription">Fugitive Name</Label>
+    <TextField class="textField" id="fugitiveName" />
+    <Button id="createFugitive">Add New</Button>
+  </Window>
+</Alloy>

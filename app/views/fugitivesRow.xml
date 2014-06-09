@@ -1,0 +1,7 @@
+<Alloy>
+  <TableViewRow id="tableViewRow" model="{alloy_id}" name="{name}" onClick='rowClick'>
+    <View id="rowView">
+      <Label id="rowLabel" text="{name}"></Label>
+    </View>
+  </TableViewRow>
+</Alloy>
